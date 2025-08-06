@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>🌾 Best Crop Suggestion</h2>
+        <p>The best crop to grow is:</p>
+        <h1>{{ crop }}</h1>
+        <a href="/predict">🔁 Try Again</a> | <a href="/">🏠 Home</a>
+    </div>
+</body>
+</html>
